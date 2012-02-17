@@ -4,7 +4,7 @@
 Name:             R-%{packname}
 Version:          0.0_16
 Release:          1
-Summary:          Delaunay Triangulation and Dirichlet (Voronoi) Tessellation.
+Summary:          Delaunay Triangulation and Dirichlet (Voronoi) Tessellation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
