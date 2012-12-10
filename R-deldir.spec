@@ -44,3 +44,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/ratfor
+
+
+%changelog
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.0_16-1
++ Revision: 776006
+- Import R-deldir
+- Import R-deldir
+
