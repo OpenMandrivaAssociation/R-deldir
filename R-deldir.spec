@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.0_16
+Version:          0.0.21
 Release:          1
 Summary:          Delaunay Triangulation and Dirichlet (Voronoi) Tessellation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.0-16.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/deldir_0.0-21.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
@@ -44,11 +44,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/ratfor
-
-
-%changelog
-* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.0_16-1
-+ Revision: 776006
-- Import R-deldir
-- Import R-deldir
-
