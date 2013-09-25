@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.0.21
-Release:          2
+Version:          0.0.22
+Release:          1
 Summary:          Delaunay Triangulation and Dirichlet (Voronoi) Tessellation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/deldir_0.0-21.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/deldir_0.0-22.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
