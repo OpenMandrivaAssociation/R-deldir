@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.0.22
-Release:          1
+Release:          2
 Summary:          Delaunay Triangulation and Dirichlet (Voronoi) Tessellation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
